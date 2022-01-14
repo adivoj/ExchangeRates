@@ -11,7 +11,7 @@ namespace ExchangeRatesClientTests
 		{
 			var result = new ExchangeRates().GetExchangeRate(30, "MXN", "BGN").Result;
 			Assert.IsNull(result.Error, "There shouldn't be any errors.");
-			Assert.AreEqual("2.52", result.Rate.ToString("0.00"), "Rate is not correct.");
+			Assert.AreEqual("2.5", result.Rate.ToString("0.0"), "Rate is not correct.");
 		}
 
 		[TestMethod]
