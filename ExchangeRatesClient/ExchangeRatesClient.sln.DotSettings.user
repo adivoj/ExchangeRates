@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b499f837_002D985a_002D4e9b_002Daf77_002D56a145bc8ded/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestCorrectRate" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::9E043E0E-AF07-4ADF-BE25-B2A6CFB9B392::.NETFramework,Version=v4.8::ExchangeRatesClientTests.ExchangeRateClientTests.TestCorrectRate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::9E043E0E-AF07-4ADF-BE25-B2A6CFB9B392::.NETFramework,Version=v4.8::ExchangeRatesClientTests.ExchangeRateClientTests.TestInvalidToCurrency&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::9E043E0E-AF07-4ADF-BE25-B2A6CFB9B392::.NETFramework,Version=v4.8::ExchangeRatesClientTests.ExchangeRateClientTests.TestInvalidFromCurrency&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
