@@ -37,7 +37,7 @@ namespace ExchangeRatesService.Controllers
                     }
                     else
                     {
-                        result = NotFound($"To currency '{from}' does not exist.");
+                        result = NotFound($"To currency '{to}' does not exist.");
                     }
                 }
                 else
