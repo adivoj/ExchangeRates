@@ -7,7 +7,7 @@ namespace ExchangeRatesClient
     {
         private readonly RestClient _client = new RestClient("https://localhost:44338/");
 
-        public async Task<ExchangeRateResult> GetExchangeRate(decimal amount, string from, string to)
+        public async Task<ExchangeRateResult> GetExchangeRate(double amount, string from, string to)
         {
             var request = new RestRequest($"api/convert?amount={amount}&from={from}&to={to}");
             var queryResult = await _client.ExecuteGetAsync(request);
@@ -15,7 +15,7 @@ namespace ExchangeRatesClient
             var result = new ExchangeRateResult();
             if (queryResult.IsSuccessful)
             {
-                result.Rate = decimal.Parse(queryResult.Content);
+                result.Rate = double.Parse(queryResult.Content);
             }
             else
             {

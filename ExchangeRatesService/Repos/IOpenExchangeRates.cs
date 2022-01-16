@@ -4,6 +4,6 @@ namespace ExchangeRatesService
 {
 	public interface IOpenExchangeRates
 	{
-		Dictionary<string, decimal> GetExchangeRates();
+		Dictionary<string, double> GetExchangeRates();
 	}
 }

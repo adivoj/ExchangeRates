@@ -18,10 +18,10 @@ namespace ExchangeRatesService.Repositories.Caching
             _repository = repository;
         }
 
-        public Dictionary<string, decimal> GetExchangeRates()
+        public Dictionary<string, double> GetExchangeRates()
         {
             var key = "Rates";
-            var rates = _memoryCache.Get<Dictionary<string, decimal>>(key);
+            var rates = _memoryCache.Get<Dictionary<string, double>>(key);
 
             if (rates == null)
             {

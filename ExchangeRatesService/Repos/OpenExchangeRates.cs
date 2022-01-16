@@ -10,7 +10,7 @@ namespace ExchangeRatesService.Repositories
 		private const string APP_ID = "98ebb3f807f242a18a05a76cbc7b0b89";
 		private readonly RestClient _client = new RestClient("https://openexchangerates.org/");
 
-		Dictionary<string, decimal> IOpenExchangeRates.GetExchangeRates()
+		Dictionary<string, double> IOpenExchangeRates.GetExchangeRates()
 		{
 			var request = new RestRequest($"api/latest.json?app_id={APP_ID}");
 			var query = _client.ExecuteGetAsync<OpenExchangeRatesResult>(request);

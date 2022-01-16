@@ -2,7 +2,7 @@
 {
 	public class ExchangeRateResult
 	{
-		public decimal Rate;
+		public double Rate;
 		public string Error;
 	}
 }

@@ -18,7 +18,7 @@ namespace ExchangeRatesApp
 				var input = Console.ReadLine().Split(' ');
 				if (input.Length == 3)
 				{
-					var amount = decimal.Parse(input[0]);
+					var amount = double.Parse(input[0]);
 					var from = input[1];
 					var to = input[2];
 

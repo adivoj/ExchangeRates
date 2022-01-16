@@ -20,7 +20,7 @@ namespace ExchangeRatesService.Controllers
 
         // GET api/convert?amount=30.2&from=MXN&to=BGN
         [HttpGet()]
-        public IActionResult Get(decimal amount, string from, string to)
+        public IActionResult Get(double amount, string from, string to)
         {
             ObjectResult result;
             try
